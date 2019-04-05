@@ -1,0 +1,200 @@
+@import "scss/bootstrap" ;
+
+$topGreen : #379683;
+$mainGreen: #5CDB95;
+$mainCream: #EDF5D1;
+$mainBlue: #05386B;
+
+
+.jumbotron1 {
+	@extend .jumbotron;
+	background-color: $topGreen;
+	border-radius: 0;
+	padding: 1rem;
+
+}
+
+.container1 {
+	@extend .container;
+	background-color: $mainGreen;
+	
+}
+
+.img-fluid1 {
+	@extend .img-fluid;
+	transition: .5s ease;
+}
+
+.col-sm-3:hover .img-fluid1 {
+	opacity: 0.3;
+}
+
+body {
+	background-color: $mainGreen;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+.col-sm-3:hover .middle {
+  opacity: 1;
+}
+
+
+.row1 {
+	@extend .row;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .row1 {
+  margin-top: 0px;
+	margin-bottom: 0px;
+	}
+  
+}
+
+
+.jumbotron1 {
+
+	h1 {
+
+	color: $mainCream;
+	padding: 0.5rem;
+
+	}
+}
+
+.listOfFavourites, .lead {
+
+color: $mainBlue;
+
+}
+
+.footer {
+	display: grid;
+	grid-column-gap: 5%;
+	grid-template-columns: auto auto auto;
+	height: 20%;
+	background-color: $mainBlue;
+	
+	position: relative;
+	margin-top: 20px; 
+	bottom: 0px;
+	
+	
+	
+	width: 100%;
+
+}
+
+.footer {
+		p {
+	color: $mainCream;
+	text-align: center;
+	}
+}
+
+#meInEgypt {
+
+	width: 100%;
+	height: auto;
+
+}
+
+
+
+ul {
+	font-size: 20px;
+}
+
+table {
+	
+	th , td {color: $mainBlue;
+	border-bottom: 1px solid $mainCream; }
+	text-align: center;
+	border-top: 2px solid $mainCream;
+
+}
+
+.backButton {
+  float: right;
+  background-color: $mainBlue;
+  border: none;
+  color: $mainCream;
+  padding: 15px 32px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.myDescription {
+	font-size: 20px;
+}
+
+#meInThailand {
+
+	width: 100%;
+	height: auto;
+
+}
+
+#meInCambodia {
+
+	width: 100%;
+	height: auto;
+	
+}
+
+#meInAustralia {
+
+	width: 100%;
+	height: auto;
+	
+}
+
+.text {
+ 
+  color: $mainCream;
+  font-size: 30px;
+  padding: 0px;
+}
+
+#meInFiji {
+	
+	width: 100%;
+	height: auto;
+}
+
+#meInCostaRica {
+	width: 100%;
+	height: auto;
+	
+}
+
+#meInPanama {
+	width: 100%;
+	height: auto;
+	
+}
+
+#meInMexico {
+
+	width: 100%;
+	height: auto;
+	
+}
